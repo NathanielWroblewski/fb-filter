@@ -1,0 +1,19 @@
+body {
+  font-family: "Libre Baskerville" serif;
+  width: 250px;
+  color: #666;
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-top: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}

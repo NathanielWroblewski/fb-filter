@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook Filter",
+  "description": "Blacklist topics, and filter your newsfeed",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "popup/icon.png",
+    "default_popup": "popup/index.html",
+    "default_title": "Facebook Filter"
+  },
+
+  "permissions": [],
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["scripts/filter.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
