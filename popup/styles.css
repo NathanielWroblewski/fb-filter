@@ -2,6 +2,8 @@ body {
   font-family: "Libre Baskerville" serif;
   width: 250px;
   color: #666;
+  padding: 10px;
+  margin: 0;
 }
 
 .title {
@@ -16,4 +18,12 @@ body {
 a {
   text-decoration: none;
   color: #666;
+}
+
+textarea {
+  width: 100%;
+}
+
+input[type="submit"] {
+  float: right;
 }
